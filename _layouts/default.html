@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Einfachergo</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="nav-link">about</a>
+            <a href="/posts" class="nav-link">posts</a>
+            <a href="/art" class="nav-link">art</a>
+        </nav>
+    </header>
     <div class="container">
-        <h1>Hello, welcome 😊</h1>
+        {{ content }}
     </div>
 </body>
 </html>
+
 
