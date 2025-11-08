@@ -1,0 +1,27 @@
+# Jekyll Configuration
+name: Einfachergo
+title: Einfachergo
+description: A simple Jekyll blog
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Collections (optional, for blog posts)
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+
