@@ -16,12 +16,6 @@ exclude:
   - vendor
 
 # Permalink structure
-permalink: /:year/:month/:day/:title/
-
-# Collections (optional, for blog posts)
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
+permalink: /posts/:title/
 
 
