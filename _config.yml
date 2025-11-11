@@ -1,7 +1,8 @@
 # Jekyll Configuration
 name: Einfachergo
 title: Einfachergo
-description: A simple Jekyll blog
+description: Un blog simple de Jekyll
+lang: es
 
 # Build settings
 markdown: kramdown

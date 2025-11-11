@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Posts
+title: Artículos
 ---
 
-# Posts 📝
+# Artículos 📝
 
 {% if site.posts.size > 0 %}
 <ul class="post-list">
@@ -14,6 +14,6 @@ title: Posts
   {% endfor %}
 </ul>
 {% else %}
-<p>No posts yet. Check back soon!</p>
+<p>Aún no hay artículos. ¡Vuelve pronto!</p>
 {% endif %}
 

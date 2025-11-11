@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "~ My First Post ~"
+title: "~ Mi Primer Artículo ~"
 ---
 
-# Welcome to My Blog! 🌟
+# ¡Bienvenidos a Mi Blog! 🌟
 
-This is my very first blog post. I'm excited to share my thoughts and stories here.
+Este es mi primer artículo del blog. Estoy emocionada de compartir mis pensamientos e historias aquí.
 
-## What You Can Expect
+## Qué Pueden Esperar
 
-I'll be writing about various topics that interest me. Stay tuned for more content!
+Escribiré sobre varios temas que me interesan. ¡Estén atentos para más contenido!
 
-Feel free to check back often for new posts.
+Siéntanse libres de volver a menudo para ver nuevos artículos.
 

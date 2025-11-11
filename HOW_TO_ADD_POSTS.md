@@ -1,90 +1,90 @@
-# How to Add a New Blog Post 📝
+# Cómo Agregar un Nuevo Artículo 📝
 
-Adding a new post is super easy! Just follow these simple steps:
+¡Agregar un nuevo artículo es súper fácil! Solo sigue estos simples pasos:
 
-## Step 1: Create a New File
+## Paso 1: Crear un Nuevo Archivo
 
-In the `_posts` folder, create a new file with this naming pattern:
+En la carpeta `_posts`, crea un nuevo archivo con este patrón de nombre:
 ```
-YYYY-MM-DD-your-post-title.md
-```
-
-**Example:** `2025-11-09-my-weekend-adventure.md`
-
-## Step 2: Add the Header
-
-At the very top of your file, add these lines:
-
-```
----
-layout: post
-title: "Your Post Title Here"
----
+YYYY-MM-DD-titulo-de-tu-articulo.md
 ```
 
-**Important:** Make sure to keep the three dashes (`---`) at the top and bottom!
+**Ejemplo:** `2025-11-09-mi-aventura-de-fin-de-semana.md`
 
-## Step 3: Write Your Content
+## Paso 2: Agregar el Encabezado
 
-Below the header, write your post using markdown. Here are some helpful formatting tips:
-
-### Headings
-```
-# Big Heading
-## Medium Heading
-### Small Heading
-```
-
-### Text Formatting
-```
-**bold text**
-*italic text*
-```
-
-### Lists
-```
-- First item
-- Second item
-- Third item
-```
-
-### Links
-```
-[Link text here](https://example.com)
-```
-
-## Step 4: Save and Done! ✨
-
-That's it! Save your file and Jekyll will automatically:
-- Add it to the posts list page
-- Create a link for people to read the full post
-- Sort it by date (newest posts first)
-
-## Example Post
-
-Here's a complete example:
+En la parte superior de tu archivo, agrega estas líneas:
 
 ```
 ---
 layout: post
-title: "My First Post"
+title: "El Título de Tu Artículo Aquí"
+---
+```
+
+**Importante:** ¡Asegúrate de mantener los tres guiones (`---`) arriba y abajo!
+
+## Paso 3: Escribir Tu Contenido
+
+Debajo del encabezado, escribe tu artículo usando markdown. Aquí hay algunos consejos útiles de formato:
+
+### Encabezados
+```
+# Encabezado Grande
+## Encabezado Mediano
+### Encabezado Pequeño
+```
+
+### Formato de Texto
+```
+**texto en negrita**
+*texto en cursiva*
+```
+
+### Listas
+```
+- Primer elemento
+- Segundo elemento
+- Tercer elemento
+```
+
+### Enlaces
+```
+[Texto del enlace aquí](https://example.com)
+```
+
+## Paso 4: ¡Guardar y Listo! ✨
+
+¡Eso es todo! Guarda tu archivo y Jekyll automáticamente:
+- Lo agregará a la página de lista de artículos
+- Creará un enlace para que la gente pueda leer el artículo completo
+- Lo ordenará por fecha (artículos más recientes primero)
+
+## Ejemplo de Artículo
+
+Aquí hay un ejemplo completo:
+
+```
+---
+layout: post
+title: "Mi Primer Artículo"
 ---
 
-# Hello World! 👋
+# ¡Hola Mundo! 👋
 
-This is my very first blog post. I'm excited to share my thoughts here.
+Este es mi primer artículo del blog. Estoy emocionada de compartir mis pensamientos aquí.
 
-## What I Did Today
+## Lo Que Hice Hoy
 
-Today I:
-- Learned something new
-- Had a great coffee
-- Started this blog!
+Hoy:
+- Aprendí algo nuevo
+- Tomé un café delicioso
+- ¡Empecé este blog!
 
-See you in the next post!
+¡Nos vemos en el próximo artículo!
 ```
 
 ---
 
-**Need help?** Just ask Sam! 😊
+**¿Necesitas ayuda?** ¡Pregúntale a Sam! 😊
 
