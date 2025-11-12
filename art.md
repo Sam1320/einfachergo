@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Art
+title: Arte
 ---
 
-# Art 🎨
+# Arte 🎨
 
-Coming soon! This is where I'll share my creative work.
+¡Próximamente! Aquí compartiré mi trabajo creativo.
 

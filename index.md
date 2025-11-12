@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Home
+title: 
 ---
 
-# Hello, welcome 😊
+<img src="{{ '/assets/ot.png' | relative_url }}" alt="Terapia Ocupacional" class="landing-image">
+
+# ¡Hola, bienvenidos! 😊

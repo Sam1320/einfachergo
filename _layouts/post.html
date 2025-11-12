@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="icon" type="image/png" href="{{ '/assets/sun_favicon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +13,18 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="/" class="nav-link">acerca de mí</a>
+            <a href="/" class="nav-link">acerca</a>
             <a href="/posts" class="nav-link">artículos</a>
             <a href="/art" class="nav-link">arte</a>
         </nav>
     </header>
-    <div class="container">
-        {{ content }}
-    </div>
+    <article class="container post-container">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <time class="post-date">{{ page.date | spanish_date }}</time>
+        <div class="post-content">
+            {{ content }}
+        </div>
+    </article>
 </body>
 </html>
-
 
